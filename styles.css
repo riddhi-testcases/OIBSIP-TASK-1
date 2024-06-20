@@ -1,0 +1,212 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #070606;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ece6e6;
+    text-decoration: none;
+    font-size:20px ;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+#hero {
+    background-image: url("assets/McAfee-1.png");
+    background-size: cover;
+    background-position: left;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.hero-container {
+    position:absolute;
+    top: 50%;
+    left: 5%;
+    width: 20%;
+    text-align: left;
+    font-weight: bold;
+    font-size:20px;
+    height: 200px;
+}
+
+#features {
+    background-color: #f9f7f7;
+    padding: 70px;
+}
+
+#features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#features li {
+    margin: 20px;
+    width: 300px;
+}
+
+#features img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#testimonials {
+    background-color: #a11818;
+    padding: 20px;
+    h2 {
+        color: #f4f0f0;
+      }
+      
+      p {
+        color: #ece5e5;
+      }
+      li p {
+        font-size: 30px;
+        margin-top: 10px;
+        text-align: center;
+      }
+      
+      li:nth-child(1) {
+        flex-direction: row-reverse;
+      }
+      
+      li:nth-child(2) {
+        flex-direction: row;
+      }
+      
+      li:nth-child(3) {
+        flex-direction: row-reverse;
+      }
+}
+
+#testimonials ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#testimonials li {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#testimonials img {
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin:20px;
+}
+
+#pricing {
+    background-color: #f7f7f7;
+    padding: 50px;
+
+}
+
+#pricing table {
+    width: 100%;
+    height: 300px;
+}
+
+#pricing th, #pricing td {
+    border: 1px solid #0c0b0b;
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+#pricing th {
+    background-color: #0c0606;
+    color: #de3131;
+}
+
+#contact {
+    background-color: #0a0505;
+    padding: 20px;
+    h2 {
+        color: #ede8e8;
+      }
+      
+      p {
+        color: #eeebeb;
+      }
+}
+
+#contact form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #dad2d2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(227, 215, 215, 0.1);
+    font-size: 30px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dfdada;
+    font-size: 20px;
+   
+}
+
+#contact button {
+    background-color: #e11212;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #0c0a0a;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
